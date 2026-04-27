@@ -498,9 +498,6 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:0 48px;height:68px;d
 .roles-empty p{font-size:15px;color:var(--muted);margin-bottom:20px;}
 .roles-empty a{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--rose);letter-spacing:.04em;border-bottom:.5px solid rgba(94,78,92,.3);padding-bottom:2px;}
 
-.cta-band h2{font-family:'Playfair Display',serif;font-size:clamp(28px,3.5vw,44px);font-weight:400;color:var(--ink);margin-bottom:16px;}
-.cta-band h2 em{font-style:italic;color:var(--rose);}
-.cta-band p{font-size:15px;line-height:1.8;color:var(--muted);max-width:440px;margin:0 auto 36px;}
 .cta-btn{display:inline-flex;align-items:center;gap:8px;background:#4a3b49;color:#f5edf8;padding:15px 34px;border-radius:50px;font-size:14px;font-weight:500;letter-spacing:.04em;transition:all .25s;}
 .cta-btn:hover{background:#352a34;transform:translateY(-2px);box-shadow:0 10px 32px rgba(46,37,48,.28);}
 
