@@ -26,9 +26,9 @@ export default function Footer() {
             </div>
             <div className="ft-col">
               <h5>Support</h5>
-              <a href="#">Help Centre</a>
-              <a href="#">Privacy</a>
-              <a href="#">Terms</a>
+              <Link href="/help">Help Centre</Link>
+              <Link href="/privacy">Privacy</Link>
+              <Link href="/terms">Terms</Link>
             </div>
           </div>
         </div>
