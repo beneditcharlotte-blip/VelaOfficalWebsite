@@ -22,7 +22,7 @@ export default function Privacy() {
       <section className="legal-body section">
         <div className="container">
           <div className="legal-inner">
-            <nav className="legal-nav">
+            <div className="legal-nav">
               <div className="ln-label">Contents</div>
               <a href="#collect">What we collect</a>
               <a href="#use">How we use it</a>
@@ -32,7 +32,7 @@ export default function Privacy() {
               <a href="#cookies">Cookies</a>
               <a href="#children">Children</a>
               <a href="#contact">Contact</a>
-            </nav>
+            </div>
 
             <div className="legal-content">
               <div className="lc-section" id="collect">

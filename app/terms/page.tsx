@@ -22,7 +22,7 @@ export default function Terms() {
       <section className="legal-body section">
         <div className="container">
           <div className="legal-inner">
-            <nav className="legal-nav">
+            <div className="legal-nav">
               <div className="ln-label">Contents</div>
               <a href="#agreement">The agreement</a>
               <a href="#account">Your account</a>
@@ -33,7 +33,7 @@ export default function Terms() {
               <a href="#disclaimer">Disclaimer</a>
               <a href="#termination">Termination</a>
               <a href="#contact">Contact</a>
-            </nav>
+            </div>
 
             <div className="legal-content">
               <div className="lc-section" id="agreement">
