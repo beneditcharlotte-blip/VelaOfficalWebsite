@@ -6,10 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "i18n:check": "node scripts/check-i18n.mjs"
   },
   "dependencies": {
     "next": "14.2.29",
+    "next-intl": "^4.11.0",
     "react": "^18",
     "react-dom": "^18"
   },
@@ -17,8 +19,8 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "typescript": "^5",
     "eslint": "^8",
-    "eslint-config-next": "14.2.29"
+    "eslint-config-next": "14.2.29",
+    "typescript": "^5"
   }
 }

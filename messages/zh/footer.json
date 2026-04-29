@@ -1,0 +1,31 @@
+{
+  "tagline": "把每天過得更清晰。讓星象與書寫，成為你的日常力量。",
+  "columns": {
+    "product": "產品",
+    "company": "公司",
+    "support": "支援"
+  },
+  "productLinks": {
+    "starreading": "星象解讀",
+    "birthchart": "本命星盤",
+    "journal": "日誌",
+    "pricing": "方案"
+  },
+  "companyLinks": {
+    "about": "關於",
+    "blog": "部落格",
+    "careers": "職缺",
+    "press": "媒體"
+  },
+  "supportLinks": {
+    "help": "說明中心",
+    "privacy": "隱私",
+    "terms": "條款"
+  },
+  "copyright": "© 2026 Vela Inc. 保留所有權利。",
+  "badges": {
+    "appStore": "App Store",
+    "soc2": "SOC 2",
+    "gdpr": "GDPR"
+  }
+}

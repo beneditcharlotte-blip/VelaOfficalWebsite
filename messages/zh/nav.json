@@ -1,0 +1,17 @@
+{
+  "brand": "Vela.",
+  "links": {
+    "starreading": "今日星象",
+    "birthchart": "專屬星盤",
+    "journal": "心情日誌",
+    "pricing": "方案與價格"
+  },
+  "cta": {
+    "appStore": "App Store"
+  },
+  "mobileCta": "前往 App Store 下載",
+  "locale": {
+    "zh": "中",
+    "en": "EN"
+  }
+}

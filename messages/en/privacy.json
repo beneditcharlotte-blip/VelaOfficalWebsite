@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "title": "Privacy Policy — Vela",
+    "description": "How Vela collects, uses, and protects your personal information."
+  },
+  "hero": {
+    "tag": "Privacy Policy",
+    "h1": {
+      "line1": "Your data,",
+      "em": "your terms"
+    },
+    "p": "We believe privacy is a right, not a feature. This policy explains exactly what we collect, why, and how you stay in control.",
+    "meta": "Last updated: April 2026 · Effective: April 1, 2026"
+  },
+  "nav": {
+    "label": "Contents",
+    "collect": "What we collect",
+    "use": "How we use it",
+    "store": "How we store it",
+    "share": "Who we share with",
+    "rights": "Your rights",
+    "cookies": "Cookies",
+    "children": "Children",
+    "contact": "Contact"
+  },
+  "sections": {
+    "collect": {
+      "h2": "What we collect",
+      "p1": "We collect only what we need to provide Vela's services. This includes:",
+      "items": {
+        "account": "Account information — your email address and, optionally, your name.",
+        "birth": "Birth data — date, time, and place of birth, used solely to generate your birth chart and personalise readings.",
+        "journal": "Journal entries — the text you write in the app. These are encrypted at rest and never used for advertising.",
+        "usage": "Usage data — anonymised information about how you use the app (screens visited, features used) to help us improve the product.",
+        "device": "Device information — device type, OS version, and crash logs for technical support."
+      },
+      "p2": "We do not collect your location beyond what you provide for birth chart purposes. We do not access your contacts, camera, or microphone."
+    },
+    "use": {
+      "h2": "How we use it",
+      "p1": "Your data is used to:",
+      "items": {
+        "readings": "Generate your personalised daily star readings and birth chart analysis.",
+        "ai": "Power the AI journal companion — your entries are processed to provide contextual responses.",
+        "notifications": "Send you optional notifications (daily reading reminders, moon phase alerts).",
+        "improve": "Improve Vela's features through anonymised, aggregated usage analysis.",
+        "support": "Provide customer support when you contact us."
+      },
+      "p2": "We do not use your data for advertising, and we do not sell it to third parties. Ever."
+    },
+    "store": {
+      "h2": "How we store it",
+      "p1": "All data is stored on servers located in the United States and the European Union. Journal entries are encrypted at rest using AES-256. Data in transit is protected by TLS 1.3.",
+      "p2": "We retain your data for as long as your account is active. If you delete your account, your data is permanently removed within 90 days. Anonymised, aggregated usage statistics may be retained indefinitely.",
+      "p3": "Vela is SOC 2 Type II certified and undergoes annual third-party security audits."
+    },
+    "share": {
+      "h2": "Who we share with",
+      "p1": "We share data with a small number of trusted service providers who help us operate Vela:",
+      "items": {
+        "cloud": "Cloud infrastructure — AWS and Google Cloud for hosting and storage.",
+        "ai": "AI processing — anonymised journal context is processed by our AI provider under strict data processing agreements.",
+        "analytics": "Analytics — anonymised usage data via Mixpanel.",
+        "payment": "Payment processing — handled entirely by Apple. We never see your payment details."
+      },
+      "p2": "All third-party providers are bound by data processing agreements and are prohibited from using your data for their own purposes.",
+      "p3": "We may disclose data if required by law, but we will notify you unless legally prohibited from doing so."
+    },
+    "rights": {
+      "h2": "Your rights",
+      "p1": "Depending on your location, you have the right to:",
+      "items": {
+        "access": "Access — request a copy of all data we hold about you.",
+        "correction": "Correction — update inaccurate or incomplete data.",
+        "deletion": "Deletion — request permanent deletion of your account and all associated data.",
+        "portability": "Portability — receive your data in a machine-readable format.",
+        "objection": "Objection — opt out of any processing based on legitimate interests."
+      },
+      "p2": "To exercise any of these rights, email us at privacy@vela.app. We respond within 30 days."
+    },
+    "cookies": {
+      "h2": "Cookies",
+      "p": "The Vela app does not use advertising cookies. Our website uses strictly necessary cookies for authentication and session management, and optional analytics cookies (which you can decline)."
+    },
+    "children": {
+      "h2": "Children",
+      "p": "Vela is not directed at children under 13. We do not knowingly collect data from anyone under 13. If you believe a child has provided us with personal information, contact us at privacy@vela.app and we will delete it promptly."
+    },
+    "contact": {
+      "h2": "Contact",
+      "p": "For privacy questions, data requests, or concerns:",
+      "items": {
+        "email": "Email: privacy@vela.app",
+        "post": "Post: Vela Inc., 340 Pine Street, Suite 800, San Francisco, CA 94104"
+      },
+      "dpo": "For EU residents, our Data Protection Officer can be reached at dpo@vela.app."
+    }
+  }
+}

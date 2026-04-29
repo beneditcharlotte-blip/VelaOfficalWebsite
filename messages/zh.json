@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "title": "Vela — 沿著星光前行",
+    "description": "每日星象指引、個人星盤與 AI 日誌。透過星辰更懂自己。"
+  },
+  "nav": {
+    "brand": "Vela.",
+    "links": {
+      "starreading": "星象解讀",
+      "birthchart": "本命星盤",
+      "journal": "日誌",
+      "pricing": "方案"
+    },
+    "cta": {
+      "appStore": "App Store"
+    },
+    "mobileCta": "前往 App Store 下載",
+    "locale": {
+      "zh": "中",
+      "en": "EN"
+    }
+  },
+  "footer": {
+    "tagline": "沿著星光前行。透過星辰更懂自己。",
+    "columns": {
+      "product": "產品",
+      "company": "公司",
+      "support": "支援"
+    },
+    "productLinks": {
+      "starreading": "星象解讀",
+      "birthchart": "本命星盤",
+      "journal": "日誌",
+      "pricing": "方案"
+    },
+    "companyLinks": {
+      "about": "關於",
+      "blog": "部落格",
+      "careers": "職缺",
+      "press": "媒體"
+    },
+    "supportLinks": {
+      "help": "說明中心",
+      "privacy": "隱私",
+      "terms": "條款"
+    },
+    "copyright": "© 2026 Vela Inc. 保留所有權利。",
+    "badges": {
+      "appStore": "App Store",
+      "soc2": "SOC 2",
+      "gdpr": "GDPR"
+    }
+  }
+}

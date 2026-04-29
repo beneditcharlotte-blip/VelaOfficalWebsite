@@ -1,0 +1,17 @@
+{
+  "brand": "Vela.",
+  "links": {
+    "starreading": "Star Reading",
+    "birthchart": "Birth Chart",
+    "journal": "Journal",
+    "pricing": "Pricing"
+  },
+  "cta": {
+    "appStore": "App Store"
+  },
+  "mobileCta": "Download on the App Store",
+  "locale": {
+    "zh": "中",
+    "en": "EN"
+  }
+}

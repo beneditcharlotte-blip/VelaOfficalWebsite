@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "Press — Vela",
+    "description": "Resources, coverage, and contact information for journalists and media partners."
+  },
+  "hero": {
+    "tag": "Press & media",
+    "h1": {
+      "line1": "Vela in the",
+      "em": "world"
+    },
+    "p": "Resources, coverage, and contact information for journalists and media partners. We're happy to help — please reach out."
+  },
+  "logowall": {
+    "label": "As featured in",
+    "outlets": {
+      "nyt": "The New York Times",
+      "wired": "Wired",
+      "guardian": "The Guardian",
+      "refinery29": "Refinery29",
+      "fastcompany": "Fast Company",
+      "vogue": "Vogue"
+    }
+  },
+  "stats": {
+    "mau": {
+      "num": "1.2",
+      "unit": "M",
+      "label": "Monthly active users"
+    },
+    "countries": {
+      "num": "180",
+      "unit": "+",
+      "label": "Countries"
+    },
+    "rating": {
+      "num": "4.9",
+      "unit": "★",
+      "label": "App Store rating"
+    },
+    "founded": {
+      "num": "2022",
+      "label": "Founded"
+    }
+  },
+  "coverage": {
+    "tag": "Recent coverage",
+    "h2": {
+      "line1": "What people are",
+      "em": "writing"
+    },
+    "articles": {
+      "nyt": {
+        "pub": "The New York Times",
+        "quote": "Vela manages to make astrology feel ",
+        "em": "genuinely useful",
+        "quote_end": " — not by dumbing it down, but by weaving it into the texture of daily life.",
+        "date": "March 2026",
+        "link": "Read"
+      },
+      "wired": {
+        "pub": "Wired",
+        "quote": "The app that's quietly becoming the most ",
+        "em": "thoughtful",
+        "quote_end": " AI companion in the wellness space — and it barely raises its voice.",
+        "date": "January 2026",
+        "link": "Read"
+      },
+      "fastcompany": {
+        "pub": "Fast Company",
+        "quote": "In an industry obsessed with engagement metrics, Vela is the rare product that ",
+        "em": "actively discourages",
+        "quote_end": " you from opening it too often.",
+        "date": "November 2025",
+        "link": "Read"
+      },
+      "guardian": {
+        "pub": "The Guardian",
+        "quote": "A beautifully designed antidote to the anxiety machine — ",
+        "em": "introspection as a daily habit",
+        "quote_end": ", powered by the stars.",
+        "date": "October 2025",
+        "link": "Read"
+      },
+      "refinery29": {
+        "pub": "Refinery29",
+        "quote": "I've tried every journalling app. Vela is the only one I've kept open for ",
+        "em": "more than two weeks",
+        "quote_end": ".",
+        "date": "September 2025",
+        "link": "Read"
+      },
+      "vogue": {
+        "pub": "Vogue",
+        "quote": "The aesthetic is flawless, but what keeps you coming back is the feeling that it ",
+        "em": "actually understands",
+        "quote_end": " you.",
+        "date": "August 2025",
+        "link": "Read"
+      }
+    }
+  },
+  "presskit": {
+    "tag": "Press kit",
+    "h2": {
+      "line1": "Everything you need,",
+      "em": "in one place"
+    },
+    "p": "Logos, screenshots, founder photos, brand guidelines, and key facts about Vela — all in a single download. Updated April 2026.",
+    "btn": "↓ Download full press kit",
+    "assets": {
+      "logos": {
+        "name": "Logo pack",
+        "desc": "SVG, PNG — light & dark variants"
+      },
+      "screenshots": {
+        "name": "App screenshots",
+        "desc": "iPhone 15 Pro — 12 screens, 300 dpi"
+      },
+      "photos": {
+        "name": "Founder photos",
+        "desc": "High-res portraits, press-ready"
+      },
+      "guidelines": {
+        "name": "Brand guidelines",
+        "desc": "Colours, typography, usage rules — PDF"
+      },
+      "factsheet": {
+        "name": "Fact sheet",
+        "desc": "Key stats, timeline, team bios — PDF"
+      }
+    }
+  },
+  "contact": {
+    "tag": "Get in touch",
+    "h2": {
+      "line1": "We're easy to",
+      "em": "reach"
+    },
+    "p": "We respond to all press enquiries within one business day. For urgent requests, email us directly and mark the subject line URGENT — we'll get back to you within a few hours.",
+    "cards": {
+      "press": {
+        "h4": "Press enquiries",
+        "p": "Feature stories, interviews, product briefings, and fact-checking requests.",
+        "link": "press@aura.app"
+      },
+      "partnership": {
+        "h4": "Partnership & collaboration",
+        "p": "Brand partnerships, editorial collaborations, and co-marketing opportunities.",
+        "link": "partners@aura.app"
+      },
+      "speaking": {
+        "h4": "Speaking & events",
+        "p": "Founder availability for panels, keynotes, and podcast appearances.",
+        "link": "speaking@aura.app"
+      }
+    }
+  }
+}

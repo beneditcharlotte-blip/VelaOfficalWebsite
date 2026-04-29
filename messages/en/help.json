@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "title": "Help Centre — Vela",
+    "description": "Find answers to common questions about Vela, your star reading, birth chart, and AI journal."
+  },
+  "hero": {
+    "tag": "Help Centre",
+    "h1": {
+      "line1": "How can we",
+      "em": "help you?"
+    },
+    "p": "Answers to the most common questions about Vela. Can't find what you're looking for? Reach us at support@vela.app — we respond within one business day."
+  },
+  "search": {
+    "placeholder": "Search for an answer…"
+  },
+  "faqs": {
+    "getting_started": {
+      "category": "Getting started",
+      "q1": "How do I set up my birth chart?",
+      "a1": "Open the app and go to Profile → Birth Chart. Enter your date, time, and place of birth. Vela uses this to personalise every reading and journal insight.",
+      "q2": "What if I don't know my exact birth time?",
+      "a2": "You can still use Vela without an exact birth time. We'll use a solar chart based on your birth date and location. Some house placements will be approximate, but your sun, moon, and planetary signs will be accurate.",
+      "q3": "Is Vela available on Android?",
+      "a3": "Android is launching very soon. Download on iOS today, or tap the Google Play button to join the waitlist — we'll notify you the moment it's live."
+    },
+    "star_readings": {
+      "category": "Star readings",
+      "q1": "When does my daily reading refresh?",
+      "a1": "Your reading refreshes at midnight in your local timezone. We recommend reading it in the morning as part of your daily ritual.",
+      "q2": "How personalised is my reading?",
+      "a2": "Every reading is generated from three sources: today's real-time planetary positions, your natal birth chart, and the emotional patterns you've journalled over time. No two readings are the same.",
+      "q3": "What are the four dimensions — Fortune, Love, Career, Rest?",
+      "a3": "These are the four areas of daily life Vela tracks. Each is influenced by different planetary transits and your chart placements. Together they give you a complete picture of the day's energy."
+    },
+    "journal_ai": {
+      "category": "Journal & AI",
+      "q1": "Is my journal private?",
+      "a1": "Yes. Your journal entries are encrypted and never shared with third parties. We do not train our AI on your personal entries without explicit consent. Your words are yours.",
+      "q2": "How does the AI companion work?",
+      "a2": "Vela's AI reads your journal entry alongside your current planetary transits and birth chart. It reflects back patterns, themes, and astrological context — not generic advice, but something shaped by your specific sky.",
+      "q3": "Can I delete my journal entries?",
+      "a3": "Yes. Go to Journal → select any entry → tap the three-dot menu → Delete. Deleted entries are permanently removed within 30 days."
+    },
+    "account_billing": {
+      "category": "Account & billing",
+      "q1": "How do I cancel my subscription?",
+      "a1": "Subscriptions are managed through the App Store. Go to Settings → Apple ID → Subscriptions → Vela → Cancel. Your access continues until the end of the current billing period.",
+      "q2": "Can I get a refund?",
+      "a2": "Refunds are handled by Apple. Visit reportaproblem.apple.com and select your Vela purchase. Apple typically processes refund requests within a few days.",
+      "q3": "What happens to my data if I delete the app?",
+      "a3": "Your account and data are retained for 90 days after deletion. To permanently delete your account and all associated data, go to Settings → Account → Delete Account before removing the app."
+    }
+  },
+  "contact": {
+    "tag": "Still need help?",
+    "h2": {
+      "line1": "We're",
+      "em": "here for you"
+    },
+    "p": "Our support team is small, human, and genuinely cares. We don't use bots for support — every reply comes from a real person on the Vela team.",
+    "email": {
+      "h4": "Email support",
+      "p": "For account issues, billing questions, and anything else.",
+      "link": "support@vela.app"
+    },
+    "community": {
+      "h4": "Community",
+      "p": "Connect with other Vela users, share readings, and ask questions.",
+      "link": "Join the community →"
+    }
+  }
+}

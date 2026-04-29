@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "title": "Vela — Your daily astrology reading & AI journal",
+    "description": "Personalised daily star readings, birth charts, and an AI journal companion. Start every morning with clarity."
+  },
+  "hero": {
+    "eyebrow": "Daily astrology · AI journal · Birth chart",
+    "h1": {
+      "line1": "Know yourself",
+      "em": "by the stars"
+    },
+    "p": "Vela blends your personal birth chart, today's planetary movements, and an AI companion that listens — so every morning starts with clarity, not guesswork.",
+    "cta": {
+      "downloadOn": "Download on the",
+      "appStore": "App Store",
+      "getItOn": "Get it on",
+      "googlePlay": "Google Play",
+      "howItWorks": "See how it works"
+    },
+    "privacy": "Free to download · Your journal is private & encrypted",
+    "social": {
+      "label": "Joined by",
+      "count": "500K+ active users worldwide"
+    },
+    "cards": {
+      "c1": {
+        "label": "Rest & Mind",
+        "body": "The noise is external. Give yourself permission to power down before the sun sets.",
+        "astro": "Waning Crescent"
+      },
+      "c2": {
+        "label": "Purpose",
+        "body": "Momentum is building quietly. Don't mistake a slow season for stagnation.",
+        "astro": "Mars Alignment"
+      },
+      "c3": {
+        "label": "Resources",
+        "body": "A sudden urge to acquire may be masking a deeper need for security.",
+        "astro": "Grounding Energy"
+      },
+      "c4": {
+        "label": "Clarity",
+        "body": "Authenticity requires a cost. Speak the truth you've been carrying.",
+        "astro": "Jupiter IV"
+      }
+    },
+    "scroll": "Scroll"
+  },
+  "marquee": "Daily Star Reading · Moon Cycles · Birth Chart · AI Journal · Weekly Rhythm · Planetary Transits · Inner Landscape · Slow Living",
+  "stats": {
+    "readings": { "num": "2.4", "unit": "M", "label": "Readings delivered" },
+    "users": { "num": "500", "unit": "K+", "label": "Active users" },
+    "countries": { "num": "180", "unit": "+", "label": "Countries reached" },
+    "rating": { "num": "4.9", "unit": "★", "label": "App Store rating" }
+  },
+  "starreading": {
+    "tag": "Star Reading",
+    "h2": { "line1": "Your cosmos,", "em": "every morning" },
+    "p": "Each day opens with a personalised reading shaped by today's planetary movements, your birth chart, and the emotional patterns you've journaled over time.",
+    "features": {
+      "dimensions": {
+        "h4": "Four dimensions of guidance",
+        "p": "Fortune, Love, Career, and Rest — each reading covers the full picture of your day, drawn from real-time planetary data."
+      },
+      "moon": {
+        "h4": "Moon phase awareness",
+        "p": "Your energy ebbs and flows with the lunar cycle. Vela maps your mood against the current moon phase to surface deeper patterns."
+      },
+      "intention": {
+        "h4": "Today's one intention",
+        "p": "Distilled from your full reading — one clear, actionable intention to carry into your day. Simple, grounded, deeply personal."
+      }
+    },
+    "card": {
+      "label": "Today's Reading",
+      "planet": "Jupiter transiting 1st House",
+      "h": { "line1": "There is a quiet light gathering", "em": "others sense it too." },
+      "sub": "This is a period for reaching out. Your presence carries more warmth than usual. Don't hold back the connection you've been sitting with.",
+      "tag": "◆ Waning Crescent · Thursday",
+      "dims": {
+        "fortune": { "name": "Fortune", "val": "Flowing" },
+        "love": { "name": "Love", "val": "Open" },
+        "career": { "name": "Career", "val": "Building" },
+        "rest": { "name": "Rest", "val": "Attend" }
+      }
+    }
+  },
+  "weeklyrhythm": {
+    "tag": "Weekly Rhythm",
+    "h2": { "line1": "Flowing overall,", "em": "Saturday needs care" },
+    "p": "See the energy of each day at a glance. Vela maps the whole week so you can plan with the cosmos, not against it.",
+    "note": { "prefix": "This week's theme · ", "em": "Momentum meets stillness — trust the in-between" }
+  },
+  "birthchart": {
+    "tag": "Birth Chart",
+    "h2": { "line1": "Your personal", "em": "cosmic blueprint" },
+    "p": "Built from your exact birth time, date, and place — your chart is the map of your character, your strengths, and the patterns that keep returning.",
+    "features": {
+      "natal": { "title": "Natal Chart", "desc": "Full 12-house breakdown with all planetary positions at birth." },
+      "transits": { "title": "Transits", "desc": "Live planetary movements mapped onto your natal chart right now." },
+      "synastry": { "title": "Synastry", "desc": "Compare two charts to reveal connection points and dynamics." },
+      "forecast": { "title": "Annual Forecast", "desc": "A full-year overview of major themes and turning points ahead." }
+    }
+  },
+  "journal": {
+    "tag": "Journal & AI",
+    "h2": { "line1": "Write freely.", "em": "Understand deeply." },
+    "p": "Your journal is not just a record — it is a conversation. Vela reads what you write alongside the cosmos and reflects back what you might not yet see.",
+    "steps": {
+      "s1": { "h4": "Write your daily entry", "p": "Begin each morning with a few honest lines. No prompts required — just you and the page, at your own pace." },
+      "s2": { "h4": "Receive your reading", "p": "Vela's AI companion reads your words alongside today's planetary alignments and your birth chart data." },
+      "s3": { "h4": "Continue the conversation", "p": "Go deeper. Ask what a transit means for you, explore a recurring pattern, or simply be heard without judgment." },
+      "s4": { "h4": "Watch patterns emerge", "p": "Over time, Vela maps your emotional rhythms — surfacing themes, growth edges, and threads you keep returning to." }
+    },
+    "ui": {
+      "date": "Thursday · April 23 · Waning Crescent",
+      "streak": "14-day streak",
+      "entryLabel": "Today's entry",
+      "entry": "\"I felt scattered this morning. Like I'm moving in many directions but going nowhere at all. Maybe I need to let something go…\"",
+      "aiLabel": "Vela · AI companion",
+      "bubble": "This feeling of being pulled in many directions often means you're outgrowing something — not that you're failing. The restlessness is asking you which direction actually belongs to you.",
+      "chips": { "c1": "Venus square Saturn", "c2": "Release cycle", "c3": "Waning energy" },
+      "btn1": "Record today's feeling",
+      "btn2": "Continue the conversation",
+      "privacy": "Your entries are private and encrypted — only you can read them"
+    }
+  },
+  "features": {
+    "tag": "What's inside",
+    "h2": { "line1": "Everything you need,", "em": "in one app" },
+    "cards": {
+      "moon": {
+        "h3": "Moon & Planet Tracker",
+        "p": "Live updates on lunar phases and planetary positions, explained in plain language and personalised to your chart.",
+        "link": "Explore transits",
+        "href": "#starreading"
+      },
+      "ai": {
+        "h3": "AI Companion",
+        "p": "An empathetic, always-available presence that holds your patterns, remembers your history, and meets you where you are today.",
+        "link": "Start a conversation",
+        "href": "#journal"
+      },
+      "journal": {
+        "h3": "Insight Journal",
+        "p": "Build a searchable archive of your thoughts, feelings, and astrological insights — your personal library of self-knowledge.",
+        "link": "Start writing",
+        "href": "#journal"
+      }
+    }
+  },
+  "testimonials": {
+    "tag": "Community",
+    "h2": { "line1": "They found their", "em": "inner compass" },
+    "p": "From daily readers to dedicated seekers — what people say about Vela.",
+    "cards": {
+      "t1": {
+        "stars": 5,
+        "quote": "\"I've tried journaling apps before, but Vela is the first that actually talks back — in a way that feels wise, not robotic. It has become my morning ritual.\"",
+        "name": "Sofia R.",
+        "handle": "Scorpio Sun · Pisces Moon",
+        "platform": "Verified App Store review"
+      },
+      "t2": {
+        "stars": 4,
+        "quote": "\"Takes a few days to really click, but once it does the readings feel surprisingly personal. I didn't expect to use it every day — now I do.\"",
+        "name": "Maya T.",
+        "handle": "Libra Rising · Virgo Sun",
+        "platform": "Verified Google Play review"
+      },
+      "t3": {
+        "stars": 5,
+        "quote": "\"Vela helped me realise I wasn't burnt out — I was misaligned. That distinction changed everything. I restructured my whole week around it.\"",
+        "name": "Lena K.",
+        "handle": "Aquarius Sun · Capricorn Moon",
+        "platform": "Verified App Store review"
+      }
+    },
+    "big": {
+      "quote": "\"I opened Vela on a Tuesday morning feeling completely lost. By the time I finished the reading, I had one sentence that changed the shape of my entire month.",
+      "em": "That is the kind of clarity I had been looking for for years.",
+      "quoteEnd": "\"",
+      "name": "Yuki H.",
+      "sign": "Cancer Sun · Gemini Rising"
+    }
+  },
+  "pricing": {
+    "h2": { "line1": "Simple pricing,", "em": "no surprises" },
+    "p": "14-day free trial on paid plans. No commitment — cancel anytime.",
+    "plans": {
+      "free": {
+        "name": "Free",
+        "period": "Forever free · No credit card needed",
+        "features": ["Daily star reading", "Birth chart access", "3 journal entries per week", "Basic moon phase calendar"],
+        "cta": "Get started free"
+      },
+      "seeker": {
+        "badge": "Most popular",
+        "name": "Seeker",
+        "period": "Billed monthly · cancel anytime",
+        "features": ["Everything in Free, plus:", "Unlimited journal entries", "AI-powered insights & follow-ups", "Full transits & synastry", "Monthly forecast", "Ad-free experience"],
+        "cta": "Start 14-day free trial",
+        "trial": "No credit card required"
+      },
+      "founder": {
+        "name": "Founder",
+        "period": "Save 25% vs monthly",
+        "features": ["Everything in Seeker, plus:", "Early access to new features", "Founder community access", "Annual deep-dive reading", "Priority support"],
+        "cta": "Claim your spot",
+        "trial": "No credit card required"
+      }
+    }
+  },
+  "faq": {
+    "tag": "Common questions",
+    "h2": { "line1": "Everything you", "em": "need to know" },
+    "items": [
+      {
+        "q": "Is my journal private?",
+        "a": "Yes. Your entries are encrypted end-to-end and never shared with third parties. We do not train our AI on your personal journal without your explicit consent. Your words are yours, always."
+      }
+,
+      {
+        "q": "How personalised is my reading?",
+        "a": "Every reading is generated from three sources: today's real-time planetary positions, your natal birth chart, and the emotional patterns from your journal over time. No two readings are the same — and no two people ever see the same reading."
+      },
+      {
+        "q": "What if I don't know my exact birth time?",
+        "a": "No problem. Vela works without an exact birth time — we'll use a solar chart based on your date and location. Your sun, moon, and planetary signs will all be accurate. You can always update your time later for even more precision."
+      },
+      {
+        "q": "Can I cancel anytime?",
+        "a": "Yes, anytime — no questions asked. Manage your subscription directly in the App Store under Settings → Subscriptions. Your access continues until the end of the current billing period."
+      }
+    ],
+    "helpLink": "See all help articles →",
+    "helpHref": "/help"
+  },
+  "ctaband": {
+    "tag": "Start today",
+    "h2": { "line1": "Start your free", "em": "daily reading" },
+    "p": "Join 500K+ seekers who begin each morning with more clarity. Your first reading takes 60 seconds.",
+    "downloadOn": "Download on the",
+    "appStore": "App Store",
+    "getItOn": "Get it on",
+    "googlePlay": "Google Play",
+    "note": "Free to download · 14-day trial on paid plans · No credit card required"
+  }
+}

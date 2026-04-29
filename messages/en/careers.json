@@ -1,0 +1,53 @@
+{
+  "meta": { "title": "Careers — Vela", "description": "Join a small team building something quietly radical. We're hiring for attitude, curiosity, and craft." },
+  "hero": { "tag": "Join the team", "h1": { "line1": "Help us build something", "em": "quietly radical" }, "p": "We're a small, fully remote team of 12. We move slowly on purpose, care deeply about craft, and believe that how we work matters as much as what we build." },
+  "perks": {
+    "tag": "Life at Vela",
+    "h2": { "line1": "How we", "em": "take care", "line2": "of each other" },
+    "p": "We've built the conditions we wish we'd had at every job before this one.",
+    "items": {
+      "remote": { "h4": "Fully remote, always", "p": "Work from wherever you do your best thinking. No return-to-office surprises, ever." },
+      "async": { "h4": "Async by default", "p": "Minimal meetings. Deep work is protected. We document well and trust each other to move forward." },
+      "pto": { "h4": "Flexible time off", "p": "Unlimited PTO with a mandatory 20-day minimum. Rest is part of the work here." },
+      "equipment": { "h4": "Equipment budget", "p": "$2,500 on day one to build a workspace that genuinely serves you." },
+      "learning": { "h4": "Learning & growth", "p": "$1,500 per year for books, courses, conferences, or whatever helps you grow." },
+      "health": { "h4": "Health & wellbeing", "p": "Full medical, dental, and vision. Plus a $100/month wellness stipend — use it however you define wellbeing." }
+    }
+  },
+  "culture": {
+    "tag": "Our culture",
+    "h2": { "line1": "Built for", "em": "people who think deeply" },
+    "p1": "We don't optimise for speed of execution. We optimise for getting things right — which sometimes means slowing down, sitting with ambiguity, and changing direction when the evidence calls for it.",
+    "p2": "Curiosity is the one thing we never negotiate on. Everyone here asks questions first and reaches for conclusions second.",
+    "cards": {
+      "craft": { "title": "Craft over speed", "desc": "We'd rather ship one thing that lasts than ten things we're embarrassed by." },
+      "honest": { "title": "Honest disagreement", "desc": "We say what we mean, kindly. Silence is not consensus here." },
+      "autonomy": { "title": "Autonomy with context", "desc": "You know the why. The how is yours to figure out." },
+      "rest": { "title": "Rest as a value", "desc": "Burnout is a design failure. We take it seriously and prevent it before it happens." }
+    }
+  },
+  "roles": {
+    "tag": "Open positions",
+    "h2": { "line1": "Where we're", "em": "looking" },
+    "p": "We hire for attitude, curiosity, and craft — in that order.",
+    "depts": {
+      "engineering": "Engineering",
+      "design": "Design",
+      "content": "Content & Community"
+    },
+    "tags": { "fulltime": "Full-time", "parttime": "Part-time", "remote": "Remote", "contract": "Contract", "anywhere": "Anywhere" },
+    "positions": {
+      "ios": "Senior iOS Engineer",
+      "ml": "ML Engineer — Personalization",
+      "designer": "Product Designer — Onboarding",
+      "writer": "Astrology Content Writer",
+      "community": "Community Manager"
+    }
+  },
+  "cta": {
+    "tag": "Don't see your role?",
+    "h2": { "line1": "We love", "em": "unexpected people" },
+    "p": "If you believe in what we're building and think you belong here — even if there's no open role that fits — we'd love to hear from you.",
+    "btn": "Send us a note →"
+  }
+}

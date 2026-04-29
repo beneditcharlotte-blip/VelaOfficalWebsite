@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useRef } from 'react'
+import { useLocale } from 'next-intl'
 
 declare global {
   interface Window {
@@ -8,8 +9,10 @@ declare global {
   }
 }
 
-export default function BirthChart() {
+export default function BirthChart({ decorative = false }: { decorative?: boolean }) {
   const containerRef = useRef<HTMLDivElement>(null)
+  const locale = useLocale()
+  const isZh = locale === 'zh'
 
   useEffect(() => {
     const container = containerRef.current
@@ -44,27 +47,69 @@ export default function BirthChart() {
       { s: '\u2653', e: 'water' },
     ]
 
-    const elCol = {
-      fire: 'rgba(245,237,248,.5)',
-      earth: 'rgba(245,237,248,.5)',
-      air: 'rgba(245,237,248,.5)',
-      water: 'rgba(245,237,248,.5)',
+    const c = decorative ? {
+      zodiac:       'rgba(94,78,92,.55)',
+      ring:         'rgba(94,78,92,.18)',
+      ringFaint:    'rgba(94,78,92,.08)',
+      centerFill:   'rgba(94,78,92,.06)',
+      divider:      'rgba(94,78,92,.1)',
+      tick:         'rgba(94,78,92,.22)',
+      houseNum:     'rgba(94,78,92,.4)',
+      planet:       'rgba(46,38,48,.65)',
+      planetActive: 'rgba(46,38,48,1)',
+      cCircFill:    'rgba(94,78,92,.07)',
+      cCircStroke:  'rgba(94,78,92,.22)',
+      cSym:         'rgba(46,38,48,.8)',
+      cName:        'rgba(46,38,48,.55)',
+      cSub:         'rgba(94,78,92,.5)',
+    } : {
+      zodiac:       'rgba(245,237,248,.5)',
+      ring:         'rgba(255,255,255,.12)',
+      ringFaint:    'rgba(255,255,255,.05)',
+      centerFill:   'rgba(0,0,0,.08)',
+      divider:      'rgba(255,255,255,.07)',
+      tick:         'rgba(255,255,255,.15)',
+      houseNum:     'rgba(245,237,248,.38)',
+      planet:       'rgba(245,237,248,.75)',
+      planetActive: 'rgba(245,237,248,1)',
+      cCircFill:    'rgba(255,255,255,.09)',
+      cCircStroke:  'rgba(255,255,255,.16)',
+      cSym:         'rgba(245,237,248,.85)',
+      cName:        'rgba(245,237,248,.55)',
+      cSub:         'rgba(245,237,248,.38)',
     }
 
-    const planets = [
-      { sym: '\u2609', name: 'Sun', pos: 18, house: 1, sign: 'Aries' },
-      { sym: '\u263D', name: 'Moon', pos: 54, house: 2, sign: 'Taurus' },
-      { sym: '\u263F', name: 'Mercury', pos: 90, house: 3, sign: 'Gemini' },
-      { sym: '\u2640', name: 'Venus', pos: 126, house: 4, sign: 'Cancer' },
-      { sym: '\u2642', name: 'Mars', pos: 162, house: 5, sign: 'Leo' },
-      { sym: '\u2643', name: 'Jupiter', pos: 198, house: 6, sign: 'Virgo' },
-      { sym: '\u2644', name: 'Saturn', pos: 234, house: 7, sign: 'Libra' },
-      { sym: '\u2645', name: 'Uranus', pos: 270, house: 8, sign: 'Scorpio' },
-      { sym: '\u2646', name: 'Neptune', pos: 306, house: 9, sign: 'Sagittarius' },
-      { sym: '\u2647', name: 'Pluto', pos: 342, house: 10, sign: 'Capricorn' },
+    const elCol = {
+      fire: c.zodiac, earth: c.zodiac, air: c.zodiac, water: c.zodiac,
+    }
+
+    const planets = isZh ? [
+      { sym: '\u2609', name: '\u592a\u967d', pos: 18,  house: 1,  sign: '\u727d\u7f8a\u5ea7' },
+      { sym: '\u263D', name: '\u6708\u4eae', pos: 54,  house: 2,  sign: '\u91d1\u725b\u5ea7' },
+      { sym: '\u263F', name: '\u6c34\u661f', pos: 90,  house: 3,  sign: '\u96d9\u5b50\u5ea7' },
+      { sym: '\u2640', name: '\u91d1\u661f', pos: 126, house: 4,  sign: '\u5de8\u87f9\u5ea7' },
+      { sym: '\u2642', name: '\u706b\u661f', pos: 162, house: 5,  sign: '\u7345\u5b50\u5ea7' },
+      { sym: '\u2643', name: '\u6728\u661f', pos: 198, house: 6,  sign: '\u8655\u5973\u5ea7' },
+      { sym: '\u2644', name: '\u571f\u661f', pos: 234, house: 7,  sign: '\u5929\u79e4\u5ea7' },
+      { sym: '\u2645', name: '\u5929\u738b\u661f', pos: 270, house: 8,  sign: '\u5929\u874e\u5ea7' },
+      { sym: '\u2646', name: '\u6d77\u738b\u661f', pos: 306, house: 9,  sign: '\u5c04\u624b\u5ea7' },
+      { sym: '\u2647', name: '\u51a5\u738b\u661f', pos: 342, house: 10, sign: '\u6469\u7faf\u5ea7' },
+    ] : [
+      { sym: '\u2609', name: 'Sun',     pos: 18,  house: 1,  sign: 'Aries' },
+      { sym: '\u263D', name: 'Moon',    pos: 54,  house: 2,  sign: 'Taurus' },
+      { sym: '\u263F', name: 'Mercury', pos: 90,  house: 3,  sign: 'Gemini' },
+      { sym: '\u2640', name: 'Venus',   pos: 126, house: 4,  sign: 'Cancer' },
+      { sym: '\u2642', name: 'Mars',    pos: 162, house: 5,  sign: 'Leo' },
+      { sym: '\u2643', name: 'Jupiter', pos: 198, house: 6,  sign: 'Virgo' },
+      { sym: '\u2644', name: 'Saturn',  pos: 234, house: 7,  sign: 'Libra' },
+      { sym: '\u2645', name: 'Uranus',  pos: 270, house: 8,  sign: 'Scorpio' },
+      { sym: '\u2646', name: 'Neptune', pos: 306, house: 9,  sign: 'Sagittarius' },
+      { sym: '\u2647', name: 'Pluto',   pos: 342, house: 10, sign: 'Capricorn' },
     ]
 
-    const hOrd = ['', '1st', '2nd', '3rd', '4th', '5th', '6th', '7th', '8th', '9th', '10th', '11th', '12th']
+    const hOrd = isZh
+      ? ['', '第一宮', '第二宮', '第三宮', '第四宮', '第五宮', '第六宮', '第七宮', '第八宮', '第九宮', '第十宮', '第十一宮', '第十二宮']
+      : ['', '1st', '2nd', '3rd', '4th', '5th', '6th', '7th', '8th', '9th', '10th', '11th', '12th']
 
     function mk(tag: string, attr?: Record<string, string>) {
       const e = document.createElementNS(NS, tag)
@@ -108,7 +153,7 @@ export default function BirthChart() {
           cy: CY.toString(),
           r: r.toString(),
           fill: 'none',
-          stroke: 'rgba(255,255,255,.12)',
+          stroke: c.ring,
           'stroke-width': '0.75',
         })
       )
@@ -120,7 +165,7 @@ export default function BirthChart() {
         cy: CY.toString(),
         r: (R3 + 18).toString(),
         fill: 'none',
-        stroke: 'rgba(255,255,255,.05)',
+        stroke: c.ringFaint,
         'stroke-width': '0.5',
       })
     )
@@ -130,7 +175,7 @@ export default function BirthChart() {
         cx: CX.toString(),
         cy: CY.toString(),
         r: R1.toString(),
-        fill: 'rgba(0,0,0,.08)',
+        fill: c.centerFill,
         stroke: 'none',
       })
     )
@@ -144,7 +189,7 @@ export default function BirthChart() {
           y1: p1[1].toString(),
           x2: p2[0].toString(),
           y2: p2[1].toString(),
-          stroke: 'rgba(255,255,255,.07)',
+          stroke: c.divider,
           'stroke-width': '0.6',
         })
       )
@@ -159,7 +204,7 @@ export default function BirthChart() {
           y1: p1[1].toString(),
           x2: p2[0].toString(),
           y2: p2[1].toString(),
-          stroke: 'rgba(255,255,255,.07)',
+          stroke: c.divider,
           'stroke-width': '0.6',
         })
       )
@@ -175,7 +220,7 @@ export default function BirthChart() {
           y1: p1[1].toString(),
           x2: p2[0].toString(),
           y2: p2[1].toString(),
-          stroke: 'rgba(255,255,255,.15)',
+          stroke: c.tick,
           'stroke-width': '0.6',
         })
       )
@@ -206,7 +251,7 @@ export default function BirthChart() {
         'dominant-baseline': 'central',
         'font-size': '9.5',
         'font-family': 'Inter,sans-serif',
-        fill: 'rgba(245,237,248,.38)',
+        fill: c.houseNum,
       })
       t.textContent = (i + 1).toString()
       middleG.appendChild(t)
@@ -224,7 +269,7 @@ export default function BirthChart() {
         'dominant-baseline': 'central',
         'font-size': '16',
         'font-family': 'Georgia,Times New Roman,serif',
-        fill: 'rgba(245,237,248,.75)',
+        fill: c.planet,
       })
       txt.textContent = p.sym + '\uFE0E'
       g.appendChild(txt)
@@ -240,8 +285,8 @@ export default function BirthChart() {
       cx: CX.toString(),
       cy: CY.toString(),
       r: (RC - 1).toString(),
-      fill: 'rgba(255,255,255,.09)',
-      stroke: 'rgba(255,255,255,.16)',
+      fill: c.cCircFill,
+      stroke: c.cCircStroke,
       'stroke-width': '0.75',
     })
     cCirc.style.cursor = 'pointer'
@@ -253,7 +298,7 @@ export default function BirthChart() {
       'dominant-baseline': 'central',
       'font-size': '22',
       'font-family': 'Georgia,serif',
-      fill: 'rgba(245,237,248,.85)',
+      fill: c.cSym,
     })
 
     const cName = mk('text', {
@@ -264,7 +309,7 @@ export default function BirthChart() {
       'font-size': '7.5',
       'font-family': 'Inter,sans-serif',
       'letter-spacing': '0.12em',
-      fill: 'rgba(245,237,248,.55)',
+      fill: c.cName,
     })
 
     const cSub = mk('text', {
@@ -274,12 +319,12 @@ export default function BirthChart() {
       'dominant-baseline': 'central',
       'font-size': '7.5',
       'font-family': 'Inter,sans-serif',
-      fill: 'rgba(245,237,248,.38)',
+      fill: c.cSub,
     })
 
     cSym.textContent = '\u264E\uFE0E'
-    cName.textContent = 'RISING'
-    cSub.textContent = 'Libra'
+    cName.textContent = isZh ? '上升' : 'RISING'
+    cSub.textContent = isZh ? '天秤座' : 'Libra'
 
     centerG.appendChild(cCirc)
     centerG.appendChild(cSym)
@@ -356,11 +401,12 @@ export default function BirthChart() {
 
       cSym.textContent = p.sym + '\uFE0E'
       cName.textContent = p.name.toUpperCase()
-      cSub.textContent = p.sign + ' · ' + hOrd[p.house] + ' House'
+      cSub.textContent = p.sign + ' · ' + hOrd[p.house] + (isZh ? '' : ' House')
 
       planetEls.forEach((pe, i) => {
         const on = i === idx
-        pe.txt.setAttribute('fill', on ? 'rgba(245,237,248,1)' : 'rgba(245,237,248,.75)')
+        pe.txt.setAttribute('fill', on ? c.planetActive : c.planet)
+        pe.txt.setAttribute('fill', on ? c.planetActive : c.planet)
         pe.txt.setAttribute('font-size', on ? '18' : '16')
       })
 
@@ -370,29 +416,31 @@ export default function BirthChart() {
       })
     }
 
-    window.chartSelectPlanet = selectPlanet
+    if (!decorative) {
+      window.chartSelectPlanet = selectPlanet
 
-    cCirc.addEventListener('click', () => {
-      isIdle = true
-      planetEls.forEach((pe) => {
-        pe.txt.setAttribute('fill', 'rgba(245,237,248,.75)')
-        pe.txt.setAttribute('font-size', '16')
+      cCirc.addEventListener('click', () => {
+        isIdle = true
+        planetEls.forEach((pe) => {
+          pe.txt.setAttribute('fill', c.planet)
+          pe.txt.setAttribute('font-size', '16')
+        })
+        planets.forEach((_, i) => {
+          const row = document.getElementById('prow-' + i)
+          if (row) row.classList.remove('active')
+        })
+        cSym.textContent = '\u264E\uFE0E'
+        cName.textContent = isZh ? '\u4e0a\u5347' : 'RISING'
+        cSub.textContent = isZh ? '\u5929\u79e4\u5ea7' : 'Libra'
       })
-      planets.forEach((_, i) => {
-        const row = document.getElementById('prow-' + i)
-        if (row) row.classList.remove('active')
-      })
-      cSym.textContent = '\u264E\uFE0E'
-      cName.textContent = 'RISING'
-      cSub.textContent = 'Libra'
-    })
+    } // end if (!decorative)
 
     return () => {
       if (container && container.firstChild) {
         container.removeChild(container.firstChild)
       }
     }
-  }, [])
+  }, [isZh])
 
-  return <div id="chartVisual" ref={containerRef}></div>
+  return <div id="chartVisual" ref={containerRef} style={decorative ? { pointerEvents: 'none' } : undefined}></div>
 }

@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "title": "About — Vela",
+    "description": "We believe the ancient wisdom of the cosmos and daily introspection belong together."
+  },
+  "hero": {
+    "tag": "Our story",
+    "h1": { "line1": "Built for those who seek", "em": "meaning", "line2": "in every moment" },
+    "p": "Vela was born from a simple belief — that the ancient wisdom of the cosmos and the intimacy of daily journalling belong together. We're a small team of designers, engineers, and astrology practitioners who believe introspection is a practice, not a moment."
+  },
+  "mission": {
+    "tag": "Mission",
+    "h2": { "line1": "To make", "em": "self-awareness", "line2": "a daily ritual" },
+    "p1": "Most of us rush through our days without pausing to notice how we feel, what we need, or where we're headed. Vela is the quiet corner you return to — where the planets overhead and the words in your heart meet.",
+    "p2": "We combine astrological intelligence with empathetic AI to offer something rare: a companion that knows both the sky and your soul.",
+    "stats": {
+      "entries": "Daily journal entries written",
+      "aware": "Users report feeling more self-aware after 30 days",
+      "countries": "Countries where Vela is used",
+      "founded": "Founded in San Francisco, CA"
+    }
+  },
+  "values": {
+    "tag": "What we believe",
+    "h2": { "line1": "Principles we", "em": "live", "line2": "by" },
+    "p": "Three ideas shape everything we build.",
+    "cards": {
+      "depth": {
+        "h3": "Depth over distraction",
+        "p": "We refuse to gamify introspection. Every feature exists to slow you down, not speed you up — to help you go deeper into what actually matters to you."
+      },
+      "privacy": {
+        "h3": "Privacy as a right",
+        "p": "Your journal is yours. We never sell your data, never train on your words without permission, and never use your vulnerabilities to serve ads. Full stop."
+      },
+      "ancient": {
+        "h3": "Ancient meets modern",
+        "p": "We take astrology seriously without being dogmatic. The stars are a language — one that millions have used for centuries to find pattern and meaning in chaos."
+      }
+    }
+  },
+  "team": {
+    "tag": "The people",
+    "h2": { "line1": "Meet the", "em": "team" },
+    "p": "A quiet group of builders, dreamers, and practitioners. We work remotely across four time zones and meet under the same sky.",
+    "members": {
+      "sofia": { "role": "Co-founder & CEO", "bio": "Former product lead at Headspace. Scorpio rising, obsessive about ritual design and quiet UX." },
+      "marcus": { "role": "Co-founder & CTO", "bio": "Previously at DeepMind. Built the AI layer that makes Vela's journalling feel like it actually listens." },
+      "rania": { "role": "Head of Astrology", "bio": "Certified astrologer with 14 years of practice. She ensures our star data is as poetic as it is accurate." },
+      "lena": { "role": "Lead Designer", "bio": "Crafts every pixel with the patience of a Virgo. Previously at Figma. Believes good design is invisible." },
+      "jonas": { "role": "Head of Growth", "bio": "Data-driven but soul-first. Grew our community from 0 to 1.2 million through word of mouth and patience." },
+      "aisha": { "role": "Community & Support", "bio": "The warmth behind every reply. Gemini sun, deeply committed to making every user feel truly heard." }
+    }
+  },
+  "story": {
+    "tag": "How we got here",
+    "h2": { "line1": "A quiet idea that", "em": "grew", "line2": "" },
+    "p1": "Vela started as a side project — a personal journalling tool Sofia built for herself during a difficult year. She shared it with ten friends. Then a hundred. Then it became something none of us could have predicted.",
+    "p2": "We've stayed small on purpose. Growth for us means depth, not scale.",
+    "timeline": {
+      "t2022": { "year": "2022", "title": "First prototype", "desc": "Sofia and Marcus build a rough journalling app with basic birth chart data in a San Francisco apartment." },
+      "t2023early": { "year": "Early 2023", "title": "Beta launch & first 10,000 users", "desc": "Shared quietly on Reddit and Substack. Zero paid marketing. The community grew entirely through word of mouth." },
+      "t2023late": { "year": "Late 2023", "title": "AI journalling companion", "desc": "Launched the empathetic AI layer — the feature that makes Vela feel like a friend who knows both you and the sky." },
+      "t2024": { "year": "2024", "title": "1 million seekers", "desc": "Reached one million monthly active users and expanded the team from 3 to 12 people, all fully remote." },
+      "today": { "year": "Today", "title": "Still just beginning", "desc": "New features in birth chart readings, weekly rhythms, and community reflection — all coming quietly, when the timing is right." }
+    }
+  }
+}

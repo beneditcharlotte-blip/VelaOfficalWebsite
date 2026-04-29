@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "媒體報導 — Vela",
+    "description": "媒體資源、報導精選與聯絡方式。歡迎記者與媒體夥伴索取資料。"
+  },
+  "hero": {
+    "tag": "媒體報導",
+    "h1": {
+      "line1": "Vela 在",
+      "em": "世界各地的聲音"
+    },
+    "p": "媒體資源、報導精選與聯絡方式。歡迎記者與媒體夥伴索取資料，我們很樂意協助。"
+  },
+  "logowall": {
+    "label": "曾被報導於",
+    "outlets": {
+      "nyt": "紐約時報",
+      "wired": "Wired",
+      "guardian": "衛報",
+      "refinery29": "Refinery29",
+      "fastcompany": "Fast Company",
+      "vogue": "Vogue"
+    }
+  },
+  "stats": {
+    "mau": {
+      "num": "1.2",
+      "unit": "M",
+      "label": "月活躍用戶"
+    },
+    "countries": {
+      "num": "180",
+      "unit": "+",
+      "label": "覆蓋國家"
+    },
+    "rating": {
+      "num": "4.9",
+      "unit": "★",
+      "label": "App Store 評分"
+    },
+    "founded": {
+      "num": "2022",
+      "label": "創立年份"
+    }
+  },
+  "coverage": {
+    "tag": "精選報導",
+    "h2": {
+      "line1": "他們",
+      "em": "這樣寫 Vela"
+    },
+    "articles": {
+      "nyt": {
+        "pub": "紐約時報",
+        "quote": "Vela 成功讓占星變得",
+        "em": "真正實用",
+        "quote_end": " — 不是透過簡化，而是將它編織進日常生活的紋理中。",
+        "date": "2026 年 3 月",
+        "link": "閱讀全文"
+      },
+      "wired": {
+        "pub": "Wired",
+        "quote": "這款應用程式正悄悄成為健康領域最",
+        "em": "體貼",
+        "quote_end": "的 AI 夥伴 — 而且它幾乎不需要大聲宣傳。",
+        "date": "2026 年 1 月",
+        "link": "閱讀全文"
+      },
+      "fastcompany": {
+        "pub": "Fast Company",
+        "quote": "在一個痴迷於參與度指標的產業中，Vela 是罕見的產品，它",
+        "em": "主動勸阻",
+        "quote_end": "你過於頻繁地打開它。",
+        "date": "2025 年 11 月",
+        "link": "閱讀全文"
+      },
+      "guardian": {
+        "pub": "衛報",
+        "quote": "一個設計精美的焦慮機器解藥 —",
+        "em": "內省作為日常習慣",
+        "quote_end": "，由星辰驅動。",
+        "date": "2025 年 10 月",
+        "link": "閱讀全文"
+      },
+      "refinery29": {
+        "pub": "Refinery29",
+        "quote": "我試過每一款日誌應用程式。Vela 是唯一一個我持續使用",
+        "em": "超過兩週",
+        "quote_end": "的。",
+        "date": "2025 年 9 月",
+        "link": "閱讀全文"
+      },
+      "vogue": {
+        "pub": "Vogue",
+        "quote": "美學無可挑剔，但讓你持續回來的是它",
+        "em": "真正理解",
+        "quote_end": "你的感覺。",
+        "date": "2025 年 8 月",
+        "link": "閱讀全文"
+      }
+    }
+  },
+  "presskit": {
+    "tag": "媒體資料包",
+    "h2": {
+      "line1": "你需要的資源，",
+      "em": "一次打包"
+    },
+    "p": "標誌、截圖、創辦人照片、品牌指南與 Vela 的關鍵資訊 — 全部在一次下載中。更新於 2026 年 4 月。",
+    "btn": "↓ 下載完整媒體資料包",
+    "assets": {
+      "logos": {
+        "name": "品牌標誌",
+        "desc": "SVG、PNG — 亮色與暗色版本"
+      },
+      "screenshots": {
+        "name": "App 截圖",
+        "desc": "iPhone 15 Pro — 12 個畫面，300 dpi"
+      },
+      "photos": {
+        "name": "創辦人照片",
+        "desc": "高解析度肖像，適合媒體使用"
+      },
+      "guidelines": {
+        "name": "品牌使用指南",
+        "desc": "顏色、字體、使用規則 — PDF"
+      },
+      "factsheet": {
+        "name": "公司資料表",
+        "desc": "關鍵數據、時間軸、團隊簡介 — PDF"
+      }
+    }
+  },
+  "contact": {
+    "tag": "聯繫我們",
+    "h2": {
+      "line1": "我們很容易",
+      "em": "聯繫"
+    },
+    "p": "我們會在一個工作日內回覆所有媒體詢問。如有緊急請求，請直接發送電子郵件並在主旨標註「緊急」— 我們會在幾小時內回覆。",
+    "cards": {
+      "press": {
+        "h4": "媒體詢問",
+        "p": "專題報導、訪談、產品簡報與事實查核請求。",
+        "link": "press@aura.app"
+      },
+      "partnership": {
+        "h4": "合作提案",
+        "p": "品牌合作、內容協作與共同行銷機會。",
+        "link": "partners@aura.app"
+      },
+      "speaking": {
+        "h4": "演講與活動",
+        "p": "創辦人可參與座談會、主題演講與播客節目。",
+        "link": "speaking@aura.app"
+      }
+    }
+  }
+}

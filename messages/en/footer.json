@@ -1,0 +1,31 @@
+{
+  "tagline": "Navigate by starlight. Know yourself by the stars.",
+  "columns": {
+    "product": "Product",
+    "company": "Company",
+    "support": "Support"
+  },
+  "productLinks": {
+    "starreading": "Star Reading",
+    "birthchart": "Birth Chart",
+    "journal": "Journal",
+    "pricing": "Pricing"
+  },
+  "companyLinks": {
+    "about": "About",
+    "blog": "Blog",
+    "careers": "Careers",
+    "press": "Press"
+  },
+  "supportLinks": {
+    "help": "Help Centre",
+    "privacy": "Privacy",
+    "terms": "Terms"
+  },
+  "copyright": "© 2026 Vela Inc. All rights reserved.",
+  "badges": {
+    "appStore": "App Store",
+    "soc2": "SOC 2",
+    "gdpr": "GDPR"
+  }
+}

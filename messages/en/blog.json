@@ -1,0 +1,33 @@
+{
+  "meta": { "title": "Blog — Vela", "description": "Stories from the cosmos. Astrology, introspection, and the art of paying attention." },
+  "hero": {
+    "tag": "The Vela journal",
+    "h1": { "line1": "Stories from", "em": "the cosmos", "line2": "" },
+    "p": "Astrology, introspection, and the art of paying attention. Written by the Vela team and the practitioners we admire.",
+    "cats": { "all": "All", "astrology": "Astrology", "journalling": "Journalling", "moon": "Moon phases", "relationships": "Relationships", "seasons": "Seasons" }
+  },
+  "featured": {
+    "tag": "Astrology",
+    "h2": { "line1": "Saturn returns and the", "em": "art of letting go" },
+    "p": "Between ages 27 and 30, Saturn completes its first full orbit since your birth. It brings reckoning — and with it, an invitation to build a life that is truly yours. Here's how to navigate the pressure without losing yourself.",
+    "author": "Rania El-Amin",
+    "date": "April 14, 2026 · 9 min read",
+    "read": "Read"
+  },
+  "posts": {
+    "p1": { "cat": "Moon phases", "h3": "What the new moon is really asking of you", "p": "New moons are not about grand gestures. They're about the quietest possible seed — the intention so fragile you can barely say it aloud.", "by": "Sofia Andreou", "time": "6 min" },
+    "p2": { "cat": "Astrology", "h3": "Mars retrograde: why everything feels harder right now", "p": "When Mars moves backward through the sky, our forward momentum stalls. This isn't punishment. It's redirection.", "by": "Rania El-Amin", "time": "7 min" },
+    "p3": { "cat": "Journalling", "h3": "Five prompts for when you don't know how you feel", "p": "Emotional ambiguity is normal. These five questions have a way of drawing out what you didn't know you needed to say.", "by": "Aisha Nwosu", "time": "4 min" },
+    "p4": { "cat": "Relationships", "h3": "Venus in retrograde and what it means for love", "p": "Every 18 months, Venus retraces her steps. Relationships begun during this period often carry a peculiar intensity — and a particular lesson.", "by": "Rania El-Amin", "time": "8 min" },
+    "p5": { "cat": "Seasons", "h3": "How to journal through the solstice", "p": "The solstice is a threshold. Light tips. Something ends. Something begins. Here's how we mark it in the journal.", "by": "Sofia Andreou", "time": "5 min" },
+    "p6": { "cat": "Astrology", "h3": "Jupiter in Gemini: a year of ideas, noise, and choosing wisely", "p": "Abundance doesn't mean ease. Jupiter's expansive energy in Gemini brings opportunity — and the challenge of knowing which door to walk through.", "by": "Rania El-Amin", "time": "10 min" }
+  },
+  "newsletter": {
+    "tag": "Stay close",
+    "h2": { "line1": "Words from the sky,", "em": "weekly" },
+    "p": "A quiet dispatch every Sunday morning — moon phase, a reflection prompt, and one piece of cosmic context for the week ahead. No noise, no ads.",
+    "placeholder": "your@email.com",
+    "cta": "Subscribe",
+    "note": "Sent every Sunday. Unsubscribe any time."
+  }
+}
